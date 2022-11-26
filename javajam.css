@@ -56,6 +56,7 @@ h4 {
     padding-left: .5em;
     padding-bottom: 0;
     border-bottom: #231814;
+    clear: left;
 
 }
 
@@ -69,15 +70,25 @@ main {
     display: block; 
 }
 
-main h2,h3,h4,p,div,ul,dl {
+main h2,
+main h3,
+main h4,
+main p,
+main div,
+main ul,
+main dl {
     padding-left: 3em;
     padding-right: 2em;
 }
 
-#details {
+.details {
     overflow: auto;
     padding-left: 20%;
     padding-right: 20%;
+}
+
+.details a {
+    text-decoration: none;
 }
 
 img {
@@ -131,7 +142,7 @@ nav ul {
     padding-left: 0;
 }
 
-#floatleft {
+.floatleft {
     float: left;
     padding-right: 2em;
     padding-bottom: 2em;
@@ -169,7 +180,7 @@ form {
 
 }
 
-form label {
+label {
     float: left;
     display: block;
     text-align: right;
@@ -178,6 +189,11 @@ form label {
 }
 
 input {
+    display: block;
+    margin-bottom: 1em;
+}
+
+textarea {
     display: block;
     margin-bottom: 1em;
 }
@@ -191,4 +207,3 @@ input {
     background-image: url(herojobs.jpg);
     background-size: 100% 100%;
 }
-
