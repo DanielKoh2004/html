@@ -1,0 +1,45 @@
+/*
+    Name: Daniel Koh
+    Date : 10/12/2022
+*/
+
+body{
+    background-color: #FFCCFF;
+    color:#003366
+}
+
+header{
+    text-align: center;
+    padding: 1.2em;
+}
+
+h1{
+    line-height: 2em;
+    text-align: center;
+    background-color: #8C87BA;
+    color: #FFFFFF;
+}
+
+nav{
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #4d6194;
+    text-align: center;
+}
+
+nav a{
+    color: #FFCCFF;
+    text-decoration: none;
+}
+
+#mph{
+    padding: 15px;
+}
+
+footer{
+    background-color: #4D6194;
+    font-size: .60em;
+    color: #FFCCFF;
+    font-style: italic;
+    text-align: center;
+}
